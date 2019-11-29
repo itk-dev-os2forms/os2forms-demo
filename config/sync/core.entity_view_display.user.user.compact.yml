@@ -1,0 +1,21 @@
+uuid: f23e5b61-b708-4c26-b758-53d34c4e191c
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+  module:
+    - user
+_core:
+  default_config_hash: xfZ3hnUJdzyBrQO9qeclIKWmokHAbW9EN6wQS4WknZk
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true
+  member_for: true

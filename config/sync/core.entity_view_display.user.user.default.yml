@@ -1,0 +1,21 @@
+uuid: f50ca5cf-503d-4474-8f7f-03aec44b7973
+langcode: da
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: THiA04nIVkoik7JLIkC1qbR5IexRhNG1FnwRqucxxpQ
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  langcode: true

@@ -1,0 +1,14 @@
+uuid: 51a838bc-67f3-40dd-ae81-30d92559a5a0
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2UwOf_8Dw8p31aH4tu2oONZZ3ZwIbs1zeaLk7vm6F7w
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'use text format restricted_html'

@@ -1,0 +1,6 @@
+title: Tilbagemelding
+handlers:
+  email_confirmation:
+    label: E-mail-bekræftelse
+  email_notification:
+    label: E-mail-notifikation

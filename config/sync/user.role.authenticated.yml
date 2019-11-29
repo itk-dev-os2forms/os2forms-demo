@@ -1,0 +1,14 @@
+uuid: 30ec97b4-c798-49d9-9a93-ce2733481f04
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ppQmCPK1Zk1uoDnmsChTQrk5nhaGsXwAxE804CS1o8U
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'use text format basic_html'
